@@ -1,0 +1,6 @@
+a = (21, 32, 44, 62, 14)
+b = list(a)
+b.append(100)
+print(b)
+a = tuple(b)
+print(a, type(a))
